@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Electronic Life Exercise</title>
+    <meta name="description" content="An electronic life simulator.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Place link and script tags -->
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="container">
+      <h1>Welcome to Electronic Life</h1>
+      <div id="world" class="world">
+        <!-- .world-map is inserted here -->
+      </div>
+      <div class="legend">
+        <p class="plant">* = Plant</p>
+        <p class="plant-eater">O = Plant Eater</p>
+        <p class="wall"># = Wall</p>
+      </div>
+    </div>
+
+    <script src="utils.js"></script>
+    <script src="vector.js"></script>
+    <script src="grid.js"></script>
+    <script src="critter.js"></script>
+    <script src="plant.js"></script>
+    <script src="main.js"></script>
+  </body>
+
+</html>
