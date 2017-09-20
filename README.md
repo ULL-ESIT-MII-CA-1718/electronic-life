@@ -6,7 +6,8 @@ An electronic life simulation from
 [See it working](https://ull-esit-mii-ca-1718.github.io/electronic-life/)
 
 # Branches 
-  * `ecma5`: Separted files, OOP using ecma5 style
+  * `ecma5`: Separated files, OOP using ecma5 style
+  * `awaselnuk`:  Version [forked from awselnuk repo](https://github.com/AWaselnuk/electronic-life)
 
 ## License
 
