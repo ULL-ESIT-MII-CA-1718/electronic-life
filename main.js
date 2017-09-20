@@ -2,13 +2,6 @@
 
 function Wall() {}
 
-//// Animation Loop
-
-function animate(world) {
-  var container = document.getElementById('#world');
-
-}
-
 //// Run program
 function init() {
   var plan = ["############################",
