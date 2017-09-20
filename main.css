@@ -1,6 +1,6 @@
 body {
   background: #999;
-  background: url('imgs/night.jpg') repeat;
+  background: url('imgs/otis_redding.png') repeat;
   font-family: monospace;
   color: #666;
   font-size: 20px;
@@ -14,14 +14,13 @@ h1 {
   width: 600px;
   margin: 5% auto;
   padding: 20px;
-  background: black; /* white; */
-  color: white;
+  background: white;
   text-align: center;
   box-shadow: 0px 0px 4px rgba(0,0,0,0.8);
 }
 
 .legend {
-  background: black; /* #666; */
+  background: #666;
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -29,14 +28,14 @@ h1 {
 }
 
 .world {
-  /* padding: 20px; */
+  padding: 20px;
   background: #444;
-  /* box-shadow: inset 0px 0px 4px rgba(0,0,0,1); */
+  box-shadow: inset 0px 0px 4px rgba(0,0,0,1);
 }
 
 .world-map {
   width: 100%;
-  background: black; /* #444; */
+  background: #444;
 }
 
 .world-map td {
