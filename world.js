@@ -48,12 +48,12 @@ var cellStyles = {
   "#": 'wall',
   "O": 'plant-eater',
   "*": 'plant'
-}
+};
 
 function buildCell(char){
   var css = cellStyles[char];
   var output = "<td class='" + css + "'>" +
-               char + "</td>"
+               char + "</td>";
   return output;
 }
 
@@ -126,7 +126,7 @@ actionTypes.reproduce = function(critter, vector, action) {
   var dest = this.checkDestination(action, vector);
   var cantReproduce = dest == null ||
                       critter.energy <= 2 * baby.energy ||
-                      this.grid.get(dest) != null
+                      this.grid.get(dest) != null;
   if (cantReproduce) { return false; }
   // Spend energy and reproduce
   critter.energy -= 2 * baby.energy;
@@ -140,7 +140,7 @@ World.prototype.letAct = function(critter, vector) {
                 action.type in actionTypes &&
                 actionTypes[action.type].call(this, critter, vector, action);
   if (!handled) {
-    critter.energy -= 0.2
+    critter.energy -= 0.2;
     if (critter.energy <= 0) {
       this.grid.set(vector, null);
     }

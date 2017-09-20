@@ -15,7 +15,7 @@ var directionNames = "n ne e se s sw w nw".split(" ");
 
 function BouncingCritter() {
   this.direction = directionNames.randomElement();
-};
+}
 
 BouncingCritter.prototype.act = function(view) {
   if (view.look(this.direction) != " ") {
