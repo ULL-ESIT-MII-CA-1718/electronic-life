@@ -8,6 +8,12 @@ An electronic life simulation from
 # Branches 
   * `ecma5`: Separated files, OOP using ecma5 style
   * `awaselnuk`:  Version [forked from awselnuk repo](https://github.com/AWaselnuk/electronic-life)
+  * `modules`: Using ECMA6 modules 
+    * Safari 10.1.
+    * Chrome Canary 60 – behind the Experimental Web Platform flag in chrome:flags.
+    * Firefox 54 – behind the dom.moduleScripts.enabled setting in about:config.
+    * Edge 15 – behind the Experimental JavaScript Features setting in about:flags.:
+
 
 ## License
 

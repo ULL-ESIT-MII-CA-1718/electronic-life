@@ -5,6 +5,14 @@ function View(world, vector) {
   this.vector = vector;
 }
 
+function charFromElement(element) {
+  if (element == null) {
+    return " ";
+  } else {
+    return element.originChar;
+  }
+}
+
 View.prototype.look = function(dir) {
   var target = this.vector.plus(directions[dir]);
   if (this.world.grid.isInside(target)) {

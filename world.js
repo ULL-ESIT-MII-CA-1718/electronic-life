@@ -24,14 +24,6 @@ function World(map, legend, container) {
   });
 }
 
-function charFromElement(element) {
-  if (element == null) {
-    return " ";
-  } else {
-    return element.originChar;
-  }
-}
-
 World.prototype.toString = function() {
   var output = "";
   for (var y = 0; y < this.grid.height; y++) {
@@ -155,4 +147,6 @@ World.prototype.checkDestination = function(action, vector) {
     }
   }
 };
+
+export {World};
 

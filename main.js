@@ -1,5 +1,7 @@
 //// Wall class
 
+import {World} from "./world.js";
+
 function Wall() {}
 
 //// Run program
