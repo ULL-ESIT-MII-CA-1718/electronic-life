@@ -1,8 +1,8 @@
 body {
   background: #999;
   background: url('imgs/night.jpg') repeat;
-  font-family: monospace;
   color: #666;
+  font-family: monospace;
   font-size: 20px;
 }
 
@@ -11,21 +11,21 @@ h1 {
 }
 
 .container {
-  width: 600px;
+  background: black; /* white; */
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.8);
+  color: white;
   margin: 5% auto;
   padding: 20px;
-  background: black; /* white; */
-  color: white;
   text-align: center;
-  box-shadow: 0px 0px 4px rgba(0,0,0,0.8);
+  width: 600px;
 }
 
 .legend {
   background: black; /* #666; */
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   font-size: 18px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .world {
@@ -35,17 +35,16 @@ h1 {
 }
 
 .world-map {
-  width: 100%;
   background: black; /* #444; */
+  width: 100%;
 }
 
 .world-map td {
+  color: #fff;
+  height: 25px;
   text-align: center;
   vertical-align: middle;
   width: 25px;
-  height: 25px;
-  color: #fff;
-
 }
 
 .plant,

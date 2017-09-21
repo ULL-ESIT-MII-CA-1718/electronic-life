@@ -10,4 +10,8 @@ gulp.task("serve", shell.task("static-server -p 8080"));
     * Edge 15 – behind the Experimental JavaScript Features setting in about:flags.:
 */
 
-gulp.task("lint", shell.task("jshint *.js"));
+gulp.task("lint", shell.task([
+      "jshint *.js",
+      "html-lint *.html",
+      "csslint *.css"
+]));
