@@ -18,3 +18,4 @@ Plant.prototype.act = function(context) {
   }
 };
 
+export  {Plant};

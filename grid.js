@@ -1,4 +1,6 @@
 //// Grid Class
+import {Vector} from "./vector.js";
+
 function Grid(width, height) {
   this.space = new Array(width * height);
   this.width = width;
@@ -29,4 +31,4 @@ Grid.prototype.forEach = function(fn, context) {
   }
 };
 
-
+export {Grid};

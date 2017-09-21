@@ -1,5 +1,7 @@
 //// Critter Class
 
+import {Vector} from "./vector.js";
+
 var directions = {
   "n":  new Vector( 0, -1),
   "ne": new Vector( 1, -1),
@@ -24,3 +26,4 @@ BouncingCritter.prototype.act = function(view) {
   return { type: "move", direction: this.direction };
 };
 
+export {directions};

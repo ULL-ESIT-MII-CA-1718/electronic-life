@@ -1,5 +1,10 @@
 //// The World Class
 
+import {Vector} from "./vector.js";
+import {directions} from "./critter.js";
+import {View, charFromElement} from "./view.js";
+import {Grid} from "./grid.js";
+
 // Construct an element using the legend and character
 function elementFromChar(legend, ch) {
   if (ch == " ") {

@@ -1,0 +1,22 @@
+{
+  "name": "electronic-life",
+  "version": "1.0.0",
+  "description": "An electronic life simulation from [Chapter 7 of 'Eloquent Javascript'.](http://eloquentjavascript.net/07_elife.html)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-MII-CA-1718/electronic-life.git"
+  },
+  "author": "Casiano Rodriguez-Leon <casiano.rodriguez.leon@gmail.com> (https://github.com/crguezl)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-MII-CA-1718/electronic-life/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-MII-CA-1718/electronic-life#readme",
+  "dependencies": {
+    "gulp-shell": "^0.6.3"
+  }
+}

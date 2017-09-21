@@ -1,6 +1,8 @@
 //// Wall class
 
 import {World} from "./world.js";
+import {PlantEater} from "./plant-eater.js";
+import {Plant} from "./plant.js";
 
 function Wall() {}
 

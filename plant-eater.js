@@ -17,3 +17,5 @@ PlantEater.prototype.act = function(context) {
     return { type: "move", direction: space };
   }
 };
+
+export {PlantEater};

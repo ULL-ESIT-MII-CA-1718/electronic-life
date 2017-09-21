@@ -1,5 +1,7 @@
 //// The View Class
 
+import {directions} from "./critter.js";
+
 function View(world, vector) {
   this.world = world;
   this.vector = vector;
@@ -39,4 +41,6 @@ View.prototype.find = function(ch) {
   if (found.length == 0) { return null; }
   return found.randomElement();
 };
+
+export {View, charFromElement};
 
