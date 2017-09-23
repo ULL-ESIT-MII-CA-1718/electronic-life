@@ -54,11 +54,10 @@ var auto_mode = emoji.replace_mode;
 var fenotype = {
   "#": emoji.replace_colons(":door:"), 
   "O": emoji.replace_colons(":rabbit2:"), 
-  "*": emoji.replace_colons(':herb:')};
-/*
-document.getElementById('out1').innerHTML = emoji.replace_colons(
-  "hello :smile: world :heart:  :cinema:\n :christmas_tree: :rabbit2: :door:");
-*/
+  "*": emoji.replace_colons(':herb:')
+};
+
+$("#legends").emoji();
 
 function buildCell(char){
   var css = cellStyles[char];

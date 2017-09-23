@@ -18,6 +18,11 @@
     <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+			crossorigin="anonymous">
+    </script>
     <script src="node_modules/emoji-js/lib/emoji.js" type="text/javascript"></script>
     <script src="node_modules/emoji-js/lib/jquery.emoji.js" type="text/javascript"></script>
 
@@ -26,10 +31,10 @@
       <div id="world" class="world">
         <!-- .world-map is inserted here -->
       </div>
-      <div class="legend">
-        <p class="plant">🌿 = Plant</p>
-        <p class="plant-eater">🐇 = Plant Eater</p>
-        <p class="wall">🚪 = Wall</p>
+      <div class="legend" id="legends">
+        <p class="plant">:herb: = Plant</p>
+        <p class="plant-eater">:rabbit2: = Plant Eater</p>
+        <p class="wall">:door: = Wall</p>
         <a href="https://github.com/ULL-ESIT-MII-CA-1718/electronic-life" class="repo">GitHub Repo</a>
       </div>
     </div>
