@@ -14,6 +14,17 @@ An electronic life simulation from
     * Firefox 54 – behind the dom.moduleScripts.enabled setting in about:config.
     * Edge 15 – behind the Experimental JavaScript Features setting in about:flags.:
 
+# References
+
+## Modules in ECMA6
+
+* [ES6 Modules in Depth](https://ponyfoo.com/articles/es6-modules-in-depth)
+* [ECMAScript modules in browsers](https://jakearchibald.com/2017/es-modules-in-browsers/)
+
+## Emojis
+
+* [js-emoji](https://github.com/iamcal/js-emoji)
+* [emojipedia](https://emojipedia.org)
 
 ## License
 
