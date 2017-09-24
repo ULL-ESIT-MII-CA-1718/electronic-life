@@ -3,9 +3,10 @@
 An electronic life simulation from
 [Chapter 7 of 'Eloquent Javascript'.](http://eloquentjavascript.net/07_elife.html)
 
-[See it working](https://ull-esit-mii-ca-1718.github.io/electronic-life/)
-
-# Branches 
+1. run `npm install`
+2. `npm intall -g node-static`
+3. `gulp serve`
+4. Configure your browser 
   * `ecma5`: Separated files, OOP using ecma5 style
   * `awaselnuk`:  Version [forked from awselnuk repo](https://github.com/AWaselnuk/electronic-life)
   * `modules`: Using ECMA6 modules 
@@ -13,6 +14,8 @@ An electronic life simulation from
     * Chrome Canary 60 – behind the Experimental Web Platform flag in chrome:flags.
     * Firefox 54 – behind the dom.moduleScripts.enabled setting in about:config.
     * Edge 15 – behind the Experimental JavaScript Features setting in about:flags.:
+5. [See it working at http://localhost:8080](http://localhost:8080)
+
 
 # References
 
