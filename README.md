@@ -4,8 +4,9 @@ An electronic life simulation from
 [Chapter 7 of 'Eloquent Javascript'.](http://eloquentjavascript.net/07_elife.html)
 
 1. run `npm install`
-2. `npm intall -g node-static`
-3. `gulp serve`
+2. Install a HTTP server: `npm install -g static-server`
+2. Install `gulp`: `npm install -g gulp`
+3. Run `gulp serve` or run `static-server -p 8080` in the command line
 4. Configure your browser 
   * `ecma5`: Separated files, OOP using ecma5 style
   * `awaselnuk`:  Version [forked from awselnuk repo](https://github.com/AWaselnuk/electronic-life)
