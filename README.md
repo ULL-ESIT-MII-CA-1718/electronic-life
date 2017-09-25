@@ -7,15 +7,12 @@ An electronic life simulation from
 2. Install a HTTP server: `npm install -g static-server`
 2. Install `gulp`: `npm install -g gulp`
 3. Run `gulp serve` or run `static-server -p 8080` in the command line
-4. Configure your browser 
-  * `ecma5`: Separated files, OOP using ecma5 style
-  * `awaselnuk`:  Version [forked from awselnuk repo](https://github.com/AWaselnuk/electronic-life)
-  * `modules`: Using ECMA6 modules 
+4. Configure your browser to work with ECMA& module extensions:
     * Safari 10.1.
     * Chrome Canary 60 – behind the Experimental Web Platform flag in chrome:flags.
     * Firefox 54 – behind the dom.moduleScripts.enabled setting in about:config.
     * Edge 15 – behind the Experimental JavaScript Features setting in about:flags.:
-5. [See it working at http://localhost:8080](http://localhost:8080)
+5. [Open your browser at http://localhost:8080](http://localhost:8080)
 
 
 # References
